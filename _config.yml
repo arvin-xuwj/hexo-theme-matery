@@ -19,9 +19,9 @@ menu:
   Contact:
     url: /contact
     icon: fas fa-comments
-  Friends:
-    url: /friends
-    icon: fas fa-address-book
+    #  Friends:
+    #    url: /friends
+    #    icon: fas fa-address-book
   # 二级菜单写法如下
   #Medias:
   #  icon: fas fa-list
@@ -126,20 +126,20 @@ indexbtn:
   enable: true
   name: Github
   icon: fab fa-github-alt
-  url: https://github.com/blinkfox/hexo-theme-matery
+  url: https://github.com/arvin-xuwj
 
 # The configurations of the second line of home banner
 # icon/button will not show up if you leave the corresponding socialLink empty
 # 首页 banner 中的第二行个人信息配置，留空即不启用
 socialLink:
-  github:  https://github.com/blinkfox
-  email: 1181062873@qq.com
+  github:  https://github.com/arvin-xuwj
+  email: arvin.xuwj@icloud.com 
   facebook: # https://www.facebook.com/xxx
   twitter: # https://twitter.com/xxx
-  qq: 1181062873
+  qq: 
   weibo: # https://weibo.com/xxx
   zhihu: # https://www.zhihu.com/xxx
-  rss: true # true、false
+  rss: false # true、false
 
 # Whether to activate the Post TOC, and Configure which title types are supported by TOC support.
 # You can add `toc: false` to the Front-matter of a post to turn off the TOC.
@@ -154,7 +154,7 @@ toc:
 # 代码块相关
 code:
   lang: true # 代码块是否显示名称
-  copy: true # 代码块是否可复制
+  copy: false # 代码块是否可复制
   shrink: true # 代码块是否可以收缩
   break: false # 代码是否折行
 
@@ -497,8 +497,8 @@ daovoice:
 
 # Tidio online contact
 tidio:
-  enable: false
-  public_key:
+  enable: true 
+  public_key: zwjzcexukfouz5c6anagrwibhkta8zr0
 
 # 腾讯兔小巢，见https://txc.qq.com/
 tuxiaochao:
@@ -541,7 +541,7 @@ addthis:
 subtitle:
   enable: true
   loop: true # 是否循环
-  showCursor: true # 是否显示光标
+  showCursor: false # 是否显示光标
   startDelay: 300 # 开始延迟
   typeSpeed: 100 # 打字速度
   backSpeed: 50 # 删除速度
